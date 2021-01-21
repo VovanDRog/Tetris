@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* black background and everything in the center */
+
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* white border on canvas */
+
+canvas {
+  border: 1px solid white;
+}
